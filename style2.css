@@ -1,0 +1,79 @@
+/*image*/
+img{
+    display: flex;
+    width: 400px;
+    align-items: center;
+}
+
+/* Center the form on the page */
+body {
+font-family: Arial, san-serif;
+background-color: #f3f3f3;
+display: flex;
+justify-content: center;
+height: 100vh;
+}
+
+/* Style for the form container */
+#loginForm, #registerForm {
+background: white;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+width: 300px;
+text-align: center;
+}
+
+/* Form headings */
+h2 {
+color: #333;
+margin-bottom: 20px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Buttons */
+.login-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background-color: darkred;
+}
+
+.register-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.register-btn:hover{
+    background-color: darkblue;
+}
+
+/* Links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
